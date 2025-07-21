@@ -1,0 +1,19 @@
+package ja0721;
+
+public class C0721_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		print('안녕하세요.');
+		System.out.println("안녕하세요.");
+		System.out.println("자바시작");
+		
+		char c ='A';
+		char c2 = 'B';
+		System.out.println(c+c2);
+//		chat a ="A"; // 문자형은 ''로 입력, 1개의 문자만 가능
+//		char a = 'AB'; 
+
+	}
+
+}

@@ -1,0 +1,35 @@
+package ja0721;
+
+import java.util.Scanner;
+
+public class C0721_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//이름, 국어점수, 영어점수를 입력받아
+		//이름, 국어점수, 영어점수, 합계점수를 출력하시오.
+		//1.Scanner 2.이름 3.국어 4.영어 -> 이름, 국어, 영어, 합계 점수 출력
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("이름을 입력하세요. : ");
+		String name = scan.nextLine();
+		System.out.println("이름 : "+name);
+		
+		System.out.println("국어 점수를 입력하세요 : ");
+		double kor = scan.nextDouble();
+		System.out.println("국어 : "+kor);
+		
+		System.out.println("영어 점수를 입력하세요 : ");
+		double eng = scan.nextDouble();
+		System.out.println("영어 : "+eng);
+		
+		double res = kor+eng;
+		System.out.println("합계 : "+res);
+		
+		
+		
+		
+	}
+
+}
