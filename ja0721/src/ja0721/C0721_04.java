@@ -2,9 +2,10 @@ package ja0721;
 
 public class C0721_04 {
 	public static void main(String[] args) {
+		
 		boolean power = true;
-		char ch ='A';
-		char ch2 ='\u0061'; // u -> 16진수를 의미 , 15*4+1*1 = 65
+		char ch = 'A';
+		char ch2 = '\u0061';   // u:16진수를 의미, 16*4+1*1 = 65
 		char ch3 = 55;
 		char tab = '\t';
 		char enter = '\n';
@@ -17,13 +18,16 @@ public class C0721_04 {
 		System.out.println("aaa"+enter+"bbb");
 		System.out.println("aaa\t\tbbb");
 		
-		int hex = 0x100; //16진수 16*16*1
+		byte b = 127;
+		System.out.println("byte : "+b);
+		
+		int hex = 0x100;  // 16진수 16*16*1
 		System.out.println("hex : "+hex);
 		
-		int oct = 0100; // 8진수
+		int oct = 0100;   // 8진수
 		System.out.println("oct : "+oct);
 		
-		long l = 1000000L;
+		long l = 10000000000L;
 		float f = 3.14F;
 		double d = 3.14;
 		double d2 = 3.14D;
@@ -32,5 +36,5 @@ public class C0721_04 {
 		double d4 = 100;
 		System.out.println("d4 : "+d4);
 	}
-
 }
+

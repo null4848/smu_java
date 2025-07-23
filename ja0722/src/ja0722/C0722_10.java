@@ -1,3 +1,5 @@
+package ja0722;
+
 import java.util.Scanner;
 
 public class C0722_10 {
@@ -25,3 +27,4 @@ public class C0722_10 {
 	}
 
 }
+

@@ -1,3 +1,5 @@
+package ja0722;
+
 import java.util.Scanner;
 
 public class C0722_13 {
@@ -62,8 +64,6 @@ public class C0722_13 {
 			break;
 		}
 		System.out.println("선택 : "+my);
-		
-		
 		
 
 	}

@@ -1,3 +1,4 @@
+package ja0722;
 
 public class C0722_01 {
 
