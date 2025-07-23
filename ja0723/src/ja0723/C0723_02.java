@@ -25,7 +25,7 @@ public class C0723_02 {
 //			System.out.println("F");
 //		}
 		
-		// 해당 월을 입력받아,
+		// 해당 월을 입력받아, 3,4,5:봄 6,7,8:여름 9,10,11:가을 그외 겨울
 		// if switch
 		
 		System.out.println("월을 입력하세요.>> ");
