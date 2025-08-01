@@ -10,20 +10,23 @@ public class Student {
 	private double avg;
 	
 	Student(){}
-	Student(int stuNo,String name, int kor, int eng, int math){
+	Student(int stuNo,String name){
+		this.stuNo = stuNo;
+		this.name = name;
+	}
+	//생성자를 통해 클래스 복사
+	Student(Student s){
+		this.stuNo = s.stuNo;
+		this.name = s.name;
+	}
+	Student(int stuNo,String name,int kor,int eng,int math){
 		this.stuNo = stuNo;
 		this.name = name;
 		this.kor = kor;
 		this.eng = eng;
 		this.math = math;
 		this.total = kor+eng+math;
-		
-	}
-	
-	// 생성자를 통해 클래스 복사
-	Student(Student s){
-		this.stuNo = s.stuNo;
-		this.name = s.name;
+		this.avg = this.total/3.0;
 	}
 	public int getStuNo() {
 		return stuNo;
@@ -67,6 +70,20 @@ public class Student {
 	public void setAvg(double avg) {
 		this.avg = avg;
 	}
-
 	
+	@Override
+	public String toString() {
+		return ""+stuNo+","+name;
+	}
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+//		boolean temp = false;
+//		if(this.stuNo == ((Student)obj).stuNo) {
+//			temp = true;
+//		}
+		return this.stuNo == ((Student)obj).stuNo;
+	}
+
 }

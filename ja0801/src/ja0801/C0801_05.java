@@ -24,10 +24,6 @@ public class C0801_05 {
 		
 		
 		
-		
-		
-		
-		
 		//  split = 분리자를 통해 배ㅇ열로 리턴
 //		String str = "홍길동, 유관순, 이순신, 강감찬, 김구";
 //		String[] name = str.split(",");
@@ -59,8 +55,18 @@ public class C0801_05 {
 	
 		
 		
-//		String str = "          ab               c      ";
+//		String str = "    ab       c    ";
 //		System.out.println(str);
+//	
+//		trim - 빈공백제거, 안에 있는 공백은 제거 안됨.
+//		System.out.println(str.trim());
+//		
+//		//replace - 대체
+//		System.out.println(str.replace("ab", "x"));
+//		
+//		//replace - " "을 ""대체, 전체공백제거 하는 형태
+//		System.out.println(str.replace(" ", ""));
+		//		System.out.println(str);
 		
 //		String str = "abcabcaaabbbbbbbchijkcaacaaaaaa";
 		

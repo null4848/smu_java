@@ -1157,3 +1157,35 @@ org.eclipse.jgit.errors.TransportException: https://github.com/null4848/smu-java
 
 !ENTRY org.eclipse.egit.ui 4 0 2025-08-01 15:04:49.942
 !MESSAGE Can't connect to any repository: https://github.com/null4848/smu-java.git (https://github.com/null4848/smu-java.git: not authorized)
+
+!ENTRY org.eclipse.debug.core 4 2 2025-08-01 18:26:42.702
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4945)
+	at org.eclipse.swt.SWT.error(SWT.java:4860)
+	at org.eclipse.swt.SWT.error(SWT.java:4831)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1332)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:801)
+	at org.eclipse.jdt.internal.debug.ui.HotCodeReplaceErrorDialog.handleDebugEvents(HotCodeReplaceErrorDialog.java:168)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1380)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1414)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:521)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2025-08-01 18:26:42.703
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4945)
+	at org.eclipse.swt.SWT.error(SWT.java:4860)
+	at org.eclipse.swt.SWT.error(SWT.java:4831)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1332)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:801)
+	at org.eclipse.jdt.internal.debug.ui.HotCodeReplaceErrorDialog.handleDebugEvents(HotCodeReplaceErrorDialog.java:168)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1380)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1414)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:521)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

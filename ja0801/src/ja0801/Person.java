@@ -7,6 +7,13 @@ public class Person {
 	String address; //주소
 	
 	Person(){}
+	Person(long id){
+		this.id=id;
+	}
+	Person(long id,String name){
+		this.id = id;
+		this.name = name;
+	}
 	Person(long id,String name,String address){
 		this.id = id;
 		this.name = name;
@@ -26,7 +33,7 @@ public class Person {
 	@Override // 상속에서 메소드를 재정의
 	public String toString() {
 		getClass().getName();
-		return ""+id;
+		return ""+id+","+getClass().getName();
 	}
 
 }
