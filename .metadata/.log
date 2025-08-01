@@ -1120,3 +1120,40 @@ java.io.FileNotFoundException: C:\workspace\smu_java\.metadata\.plugins\org.ecli
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:265)
 	at org.eclipse.egit.ui.internal.staging.StagingView$58.run(StagingView.java:3862)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-01 15:03:16.121
+!MESSAGE An exception occurred during push on URI https://github.com/null4848/smu-java.git: https://github.com/null4848/smu-java.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/null4848/smu-java.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-01 15:03:16.123
+!MESSAGE Can't connect to any repository: https://github.com/null4848/smu-java.git (https://github.com/null4848/smu-java.git: not authorized)
+
+!ENTRY org.eclipse.equinox.security 1 0 2025-08-01 15:04:49.639
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-01 15:04:49.941
+!MESSAGE An exception occurred during push on URI https://github.com/null4848/smu-java.git: https://github.com/null4848/smu-java.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/null4848/smu-java.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-01 15:04:49.942
+!MESSAGE Can't connect to any repository: https://github.com/null4848/smu-java.git (https://github.com/null4848/smu-java.git: not authorized)
