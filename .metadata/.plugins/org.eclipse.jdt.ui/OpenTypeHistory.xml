@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=ja0730/C:\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/21\/docs\/api\/=/=/module=/true=/&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1746145338000"/>
+    <typeInfo handle="=ja0730/C:\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/21\/docs\/api\/=/=/module=/true=/&lt;java.lang.runtime(ObjectMethods.class[ObjectMethods" modifiers="33" timestamp="1746145338000"/>
+    <typeInfo handle="=ja0731/src&lt;ja0731{MService.java[MService" modifiers="513" timestamp="1753942110165"/>
+    <typeInfo handle="=ja0731_02/src&lt;ja0731_02{MService.java[MService" modifiers="513" timestamp="1753945027588"/>
+</typeInfoHistroy>

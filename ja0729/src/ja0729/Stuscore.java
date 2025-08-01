@@ -1,0 +1,33 @@
+package ja0729;
+
+public class Stuscore {
+	static int count = 0;
+	int no;
+	String name;
+	int kor;
+	int eng;
+	int math;
+	int total;
+	double avg;
+	
+	{
+		this.no = count+1;
+		count++;
+	}
+
+	
+	Stuscore(){
+		
+		
+	}
+	
+	Stuscore(String name, int kor, int eng, int math){
+		this.name = name;
+		this.kor = kor;
+		this.eng = eng;
+		this.math = math;
+		this.total = kor+eng+math;
+		this.avg = total/3.0;
+	}
+
+}
